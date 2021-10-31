@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Skaters;
+    src: url('../fonts/Skaters.ttf')
+  }
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf')
+}
+*{
+    font-family: 'Helvetica Neue',sans-serif;
+}
+.section-start{
+    background-image: url('../assets/AIR-JORDAN.jpg');
+    background-size: cover;
+    
+    height: 100vh;
+}
+.section-two{
+    height: 1443px;
+}

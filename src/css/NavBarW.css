@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Skaters;
+    src: url('../fonts/Skaters.ttf')
+  }
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf')
+}
+
+nav{
+    height: 76px;
+    padding-top: 0 !important;
+    animation: 1ms;
+    }
+    .navbar div .color-w{
+        
+        width: 100%;
+        background-color: white;
+    }
+    
+    .busqueda{
+        border-radius: 3px;
+        border: 2px solid rgba(200, 200, 200, 0.25);
+        display: flex;
+        position: relative;
+        transition: border-color 200ms ease 0s, width 100ms ease 0s;
+        width: 240px;
+        pointer-events: auto;
+        margin-left: 30px;
+    }
+nav .contenido{
+    height: 560px;
+    background-color: white;
+}
+    .busqueda i{
+        position: absolute;
+        top: 8px;
+        left: 7px;
+        width: 20px;
+        height: 20px;
+        fill: rgb(255, 255, 255);
+        
+    }
+    .busqueda input{
+        background-color: transparent;
+        border: 0px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px;
+        outline: 0px;
+        padding: 0px 20px 0px 32px;
+        width: 100%;
+    }
+    .link-scaters{
+        font-family: 'Skaters',sans-serif;
+        color: red;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .grupo-ul ul{
+        list-style:none;    
+        color: white;
+        cursor: pointer;
+        
+    }
+    .grupo-ul-w ul li{
+        display: inline;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        width: 100%;
+        height: 100%;
+        margin: 0px !important;
+    }
+    .btn-nav{
+        color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+    padding:12px 24px;
+    
+    
+    }
+    .btn-disable:disabled{
+        color: rgb(143, 143, 143);
+    }

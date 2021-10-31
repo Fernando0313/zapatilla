@@ -1,0 +1,45 @@
+.pt-150{
+    padding-top: 150px;
+}
+.w-700{
+    width: 500px;
+}
+.ml-430{
+    margin-left: -430px;
+}
+.ml-390{
+    margin-left: -390px;
+}
+.bg-color{
+    background-color: rgb(213 209 209);
+    height: 1px;
+}
+.recuperar-contra{
+    color: #ccc;
+    
+}
+.recuperar-contra:hover{
+    cursor: pointer;
+    color: black;
+}
+.input-border{
+    border:1px solid rgb(231, 231, 231);
+    min-height: 40px;
+}
+.color-white{
+    text-transform: uppercase;
+    margin: 0px 10px;
+    color: rgb(129, 129, 129);
+}
+.font-style{
+    font-size: 14px;
+    color:rgb(129, 129, 129);
+}
+.btn-style{
+    min-height: 40px;
+    width: 100%;
+    color: rgb(48, 48, 48);
+    background-color: rgb(231, 231, 231);
+    border-color: rgb(231, 231, 231);
+    border:0;
+}
